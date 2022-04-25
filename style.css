@@ -1,4 +1,6 @@
 .text-center {
+  text-align: center;
+  align-content: start;
   margin-top: 2rem;
 }
 
@@ -10,13 +12,12 @@
 .thumbnail {
   display: block;
   background-color: white;
-  margin: 20px;
+  margin: 30px;
   text-align: center;
 }
 
-.text-center {
-  text-align: center;
-  align-content: start;
+.caption {
+  block-size: 50px;
 }
 
 .headline {
